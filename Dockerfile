@@ -1,4 +1,4 @@
-FROM ghcr.io/qno/rack-plugin-toolchain-ctng-windows:x86_64-w64-mingw32 as ctng-windows
+FROM ghcr.io/4ms/rack-plugin-toolchain-ctng-windows:x86_64-w64-mingw32 as ctng-windows
 FROM ghcr.io/4ms/rack-plugin-toolchain-ctng-linux:x86_64-ubuntu16.04 as ctng-linux
 FROM ghcr.io/qno/rack-plugin-toolchain-cppcheck:2.13.0 as cppcheck
 
